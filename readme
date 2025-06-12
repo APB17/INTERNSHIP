@@ -1,1 +1,35 @@
+# 📧 Detecting Spam Emails Using TensorFlow in Python
 
+This project demonstrates how to use **Deep Learning** with **TensorFlow** to classify email messages as **spam** or **ham (not spam)**. It leverages text preprocessing, LSTM networks, and model evaluation techniques to build an efficient spam detection system.
+
+---
+
+## 🚀 Project Overview
+
+Spam emails are a growing issue in digital communication, often used for phishing and malware delivery. This project provides a machine learning-based solution using natural language processing (NLP) and TensorFlow to automatically identify and filter out spam emails.
+
+---
+
+## 🧠 Key Features
+
+- Text preprocessing: cleaning, stopword removal, tokenization
+- Balanced dataset creation (handling class imbalance)
+- LSTM-based neural network built with TensorFlow/Keras
+- Training with callbacks (EarlyStopping, ReduceLROnPlateau)
+- Evaluation using accuracy, precision, recall, and F1-score
+- Visualization: Accuracy & Loss plots, WordClouds
+- Easily extendable to advanced models or multi-class classification
+
+---
+
+## 🧰 Technologies Used
+
+- Python 3.x
+- TensorFlow / Keras
+- NLTK
+- Pandas & NumPy
+- Scikit-learn
+- Matplotlib & Seaborn
+- WordCloud
+
+---
